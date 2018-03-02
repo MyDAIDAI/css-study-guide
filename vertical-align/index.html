@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>vertical-align</title>
+</head>
+  <body>
+    <div class="block">
+      X
+      <div class="child" id="child1"></div>
+      <div class="child" id="child2"></div>
+      <div class="child" id="child3"></div>
+    </div>
+  </body>
+  </html>
+  <style>
+    .block {
+      width: 200px;
+      /*height: 200px;*/
+      background-color: gray
+    }
+    .block .child {
+      display: inline-block;
+      width: 50px;
+      background: aliceblue;
+      word-break:break-all;
+    }
+    #child1 {
+      height: 100px;
+      vertical-align: middle;
+    }
+    #child2 {
+      height: 200px;
+      vertical-align: bottom;
+    }
+    #child3 {
+      height: 300px;
+      vertical-align: middle
+    }
+  </style>
