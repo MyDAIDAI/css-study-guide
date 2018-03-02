@@ -65,7 +65,7 @@ Raise (positive value) or lower (negative value) the box by this distance. The v
   </style>
   ```
   按照上面的说法，也就说类为`child`的子元素的基线会与其父元素的基线对齐，而父元素的基线是字母x的低端，而类为`child`的子元素中没有元素，所有其基线则为底部边界
-  ![vertical1]（/vertical-align/vertical1.png）
+  ![vertical1]（https://github.com/MyDAIDAI/css-study-guide/blob/vertical-align/vertical-align/vertical1.png）
   当我们在子元素中添加元素如下：
   ```
   <div class="block">
