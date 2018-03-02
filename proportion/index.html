@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>宽高比不变</title>
+</head>
+<body>
+    <div class="father">
+      <div class="son">
+        <div class="content">123123</div>
+      </div>
+    </div>
+</body>
+</html>
+<style>
+  .father {
+    width: 100%;
+  }
+  .son {
+    width: 20%;
+    height: 0;
+    padding-top: 40%;
+    background: red;
+    position: relative;
+  }
+  .content {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+</style>
