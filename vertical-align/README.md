@@ -1,5 +1,4 @@
-# css-study-guide
-CSS踩坑指南
+
  ## `vertical-align`
 在[w3c](https://www.w3.org/TR/CSS21/visudet.html#propdef-vertical-align)中有这样的解释：
 ```
