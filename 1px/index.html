@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="initial-scale=0.33333333, maximum-scale=0.33333333, minimum-scale=0.33333333, user-scable=no">
+  <title>1px</title>
+</head>
+<body>
+  <div class="border"></div>
+</body>
+</html>
+<style>
+  div {
+    border: none;
+    width: 500px;
+    height: 500px;
+  }
+  .border {
+    background:
+    linear-gradient(180deg, black, black 50%, transparent 50%) top    left  / 100% 1px no-repeat,
+    linear-gradient(90deg,  black, black 50%, transparent 50%) top    right / 1px 100% no-repeat,
+    linear-gradient(0,      black, black 50%, transparent 50%) bottom right / 100% 1px no-repeat,
+    linear-gradient(-90deg, black, black 50%, transparent 50%) bottom left  / 1px 100% no-repeat;
+  }
+</style>
