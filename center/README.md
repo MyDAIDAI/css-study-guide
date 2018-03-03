@@ -162,9 +162,6 @@
 </style>
 ```
 
-参考： 
-- [六种实现元素水平居中](https://www.w3cplus.com/css/elements-horizontally-center-with-css.html)
-- [CSS 居中大全](https://jinlong.github.io/2013/08/13/centering-all-the-directions/)
 ## 垂直居中
 通用办法：
 父元素设置相同的`padding-top`与`padding-bottom`值
@@ -307,3 +304,10 @@
   }
 </style>
 ```
+
+
+参考： 
+- [六种实现元素水平居中](https://www.w3cplus.com/css/elements-horizontally-center-with-css.html)
+- [CSS 居中大全](https://jinlong.github.io/2013/08/13/centering-all-the-directions/)
+- [用CSS/CSS3 实现 水平居中和垂直居中的完整攻略](http://blog.csdn.net/summer_lover_/article/details/66479576)
+- [CSS垂直居中的11种实现方式](https://www.cnblogs.com/panda-ling/p/6323535.html)
