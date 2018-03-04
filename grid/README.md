@@ -238,7 +238,7 @@
 </style>
 ```
 在上面的代码中我们创建了一个2*2的网格，分别为`child1`与`child2`指定其相应的网格位置，但是`child2`指定的网格位置不是我们开始创建的，这个时候就会自动创建`child2`所需要的网格，这个时候就可以使用`grid-auto-columns`和`grid-auto-rows`属性来指定这些隐式轨道的宽度和高度，如下：
-![grid10](https://github.com/MyDAIDAI/css-study-guide/blob/grid/grid/grid10.png)
+![grid10](https://github.com/MyDAIDAI/css-study-guide/blob/grid/grid/grid10.jpeg)
 
 ### `grid-auto-flow`
 若没有显示的指明放置网格上的`grid item`，则自动放置算法会自动放置这些项目，而该属性会用户控制自动布局算法的工作方式，其值为：
