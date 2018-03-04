@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>grid布局</title>
+</head>
+<body>
+  <div>
+    <div class="grid-container">
+      <div class="child child1">item1</div>
+      <div class="child child2">item2</div>
+      <div class="child child3">item3</div>
+      <div class="child child4">item4</div>
+    </div>
+    <span>123</span>
+  </div>
+</body>
+</html>
+<style>
+  .grid-container {
+    display: grid;
+    border: 1px solid #000000;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 90px 90px;
+    grid-auto-columns: 60px;
+  }
+  .child {
+    border: 1px solid #000000
+  }
+  .child1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .child2 {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+  }
+</style>
