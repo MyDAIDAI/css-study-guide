@@ -267,6 +267,7 @@
 </style>
 ```
 这种实现方式的两个核心是：把要垂直居中的元素相对于父元素绝对定位，top和bottom设为相等的值，我这里设成了0，当然你也可以设为99999px或者-99999px无论什么，只要两者相等就行，这一步做完之后再将要居中元素的margin设为auto，这样便可以实现垂直居中了。被居中元素的宽高也可以不设置，但不设置的话就必须是图片这种自身就包含尺寸的元素，否则无法实现。
+
 2. 高度不确定
 - 使用`absolute`和`transform: translateY(-50%)`
 ```
@@ -279,7 +280,7 @@
     word-break: break-all;
   }
 ```
-- 使用`flex`,需要设置父容器高度
+- 使用`flex`
 ```
 <body>
   <div class="container"><div class="content"><div>2wrwe312312333333333332312312312234234242342</div></div>
@@ -305,6 +306,8 @@
 </style>
 ```
 
+- `positon: relative;top:0;left:0;bottom:0;right:0;margin:auto auto`
+- `table table-cell`
 
 参考： 
 - [六种实现元素水平居中](https://www.w3cplus.com/css/elements-horizontally-center-with-css.html)
