@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>常用布局</title>
+</head>
+<body>
+  <div class="content">
+    <div class="sub">sub</div>
+    <div class="main">main</div>            
+    <div class="extra">extra</div>
+  </div>
+</body>
+</html>
+<style>
+  .content {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 190px 1fr 230px;
+    grid-template-areas: 
+      "sub main extra"
+  }
+  .sub {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    grid-area: sub;
+  }
+  .extra {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    grid-area: extra;
+  }
+  .main {
+    grid-area: main;
+  }
+</style>
